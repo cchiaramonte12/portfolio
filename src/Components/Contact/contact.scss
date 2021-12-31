@@ -1,0 +1,62 @@
+.contact {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    .bottom {
+        flex: 1;
+    }
+
+    .top {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        overflow: hidden;
+
+        h2 {
+            font-size: 30px;
+            overflow: hidden;
+        }
+
+        form {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+            flex-direction: column;
+
+            input {
+                width: 300px;
+                height: 30px;
+                font-size: 14px;
+            }
+
+            textarea {
+                width: 300px;
+                height: 200px;
+                font-size: 14px;
+            }
+
+            button {
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: #057840;
+                border: none;
+                border-radius: 10px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            span {
+                display: flex;
+                overflow: hidden;
+                height: 50px;
+            }
+        }
+    }
+}

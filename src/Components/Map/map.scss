@@ -1,0 +1,27 @@
+.map {
+    height: 100%;
+    overflow: hidden;
+
+    .container {
+        position: relative;
+        min-height: 400px;
+
+        img {
+            position: relative;
+            top: 0;
+            left: 0;
+            filter: grayscale(100%);
+        }
+
+        .mapCard {
+            position: absolute;
+            top: 175px;
+            left: 1200px;
+            padding: 1rem;
+            width: 100%;
+            max-width: 250px;
+            border-radius: 12px;
+            background: #057840;
+        }
+    }
+}
