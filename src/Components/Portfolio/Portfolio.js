@@ -93,10 +93,10 @@ export default function Portfolio() {
                 <p>{d.desc}</p>
             ))}</div>
                         <div className="links">{data.map((d)=>(
-                <a href={d.lnk}>Link: {d.lnk}</a>
+                <a href={d.lnk} target="_blank">Link: {d.lnk}</a>
             ))}</div>
                         <div className="source">{data.map((d)=>(
-                <a href={d.source}>Source: {d.source}</a>
+                <a href={d.source} target="_blank">Source: {d.source}</a>
             ))}</div>
             </div>
     );
