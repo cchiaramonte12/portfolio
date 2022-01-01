@@ -26,7 +26,7 @@ export default function Contact() {
         else if (!isValidEmail) {
             alert('Please enter a valid email.');
         } else {
-            alert('Thank, I will reply ASAP!');
+            alert('Thank you, I will reply ASAP!');
         }
     }
 
